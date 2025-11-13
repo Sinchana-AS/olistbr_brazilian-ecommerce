@@ -1,0 +1,40 @@
+# Environment variables (CRITICAL - contains API keys)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (optional - uncomment if datasets are large)
+# *.csv
+# data/
+
+# Database
+*.db
+*.sqlite
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
